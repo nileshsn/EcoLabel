@@ -6,7 +6,6 @@ groq
 numpy
 gtts 
 speechrecognition
-pyaudio
 streamlit
 python-dotenv
 plotly
