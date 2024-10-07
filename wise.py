@@ -239,7 +239,7 @@ def show_product_info():
 
 def show_home():
     st.image("img.jpeg", width=200)
-    st.write("""
+    st.write(""" 
         Welcome to **EcoLabel**, a platform that provides clear and personalized insights into the health, environmental, and societal impacts of everyday products. By verifying sustainability metrics and origins, EcoLabel helps you make informed choices that align with your values.
     """)
     
@@ -267,10 +267,10 @@ def main():
     /* Global styles */
     body {
         color: #2e3a24;  /* Dark green text */
-        background-color: #e8f5e9;  /* Light green background */
+        background-color: #f1f8e9;  /* Very light green background */
     }
     .stApp {
-        background-color: #e8f5e9;
+        background-color: #f1f8e9;
     }
     
     /* Text styles */
@@ -282,6 +282,7 @@ def main():
     /* Sidebar styles */
     [data-testid="stSidebar"] {
         background-color: #4caf50;  /* Green sidebar */
+        width: 200px;  /* Set a fixed width for the sidebar */
     }
     [data-testid="stSidebar"] .sidebar-content {
         background-color: #4caf50;  /* Green sidebar */
