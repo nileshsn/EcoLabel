@@ -282,7 +282,7 @@ def main():
     /* Sidebar styles */
     [data-testid="stSidebar"] {
         background-color: #4caf50;  /* Green sidebar */
-        width: 80px;  /* Reduced width for the sidebar */
+        /* width: 80px;   Reduced width for the sidebar */
     }
     [data-testid="stSidebar"] .sidebar-content {
         background-color: #4caf50;  /* Green sidebar */
