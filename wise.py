@@ -171,8 +171,14 @@ def chat_with_bot():
     # Option to show previous chat history
     if st.button("Show Previous Chat History"):
         st.subheader("Chat History")
-        for speaker, message in st.session_state.chat_history:
-            st.write(f"**{speaker.capitalize()}:** {message}")
+        for index, (speaker, message) in enumerate(st.session_state.chat_history):
+            col1, col2 = st.columns([4, 1])
+            with col1:
+                st.write(f"**{speaker.capitalize()}:** {message}")
+            with col2:
+                if st.button("Clear", key=f"clear_{index}"):
+                    st.session_state.chat_history.pop(index)
+                    st.experimental_rerun()  # Refresh to update the chat history display
     
     for speaker, message in st.session_state.chat_history:
         with st.chat_message(speaker):
@@ -199,9 +205,9 @@ def chat_with_bot():
                     st.write("Sorry, I couldn't generate a response.")
                     st.session_state.chat_history.append(("assistant", "Sorry, I couldn't generate a response."))
     
-    if st.button("Clear Chat History"):
+    if st.button("Clear All Chat History"):
         st.session_state.chat_history = []
-        st.rerun()  
+        st.experimental_rerun()  # Refresh to clear the displayed chat
 
 # Streamlit UI for user input
 # Update the show_product_info function
