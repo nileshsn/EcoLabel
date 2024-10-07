@@ -1,74 +1,160 @@
 ProductName,State1,Percentage1,State2,Percentage2,State3,Percentage3,State4,Percentage4
-Almonds,California,60%,Gujarat,20%,Rajasthan,10%,Jammu & Kashmir,5%
-Apples,Himachal Pradesh,50%,Jammu & Kashmir,30%,Uttarakhand,10%,Maharashtra,5%
-Avocados,Maharashtra,70%,Tamil Nadu,20%,Karnataka,5%,Kerala,5%
-Bananas,Kerala,40%,Tamil Nadu,35%,Maharashtra,15%,Andhra Pradesh,10%
-Broccoli,Maharashtra,25%,Karnataka,30%,Punjab,20%,Gujarat,25%
-Butter,Punjab,55%,Maharashtra,20%,Karnataka,15%,Tamil Nadu,10%
-Carrots,Himachal Pradesh,45%,Punjab,35%,Maharashtra,15%,Haryana,5%
-Cheese,Maharashtra,50%,Karnataka,30%,Punjab,10%,Gujarat,10%
-Chickpeas,Rajasthan,55%,Gujarat,35%,Madhya Pradesh,5%,Punjab,5%
-Chocolate,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Cookies,Kerala,30%,Maharashtra,25%,Karnataka,20%,Gujarat,25%
-Chicken,Punjab,60%,Haryana,25%,Maharashtra,10%,Karnataka,5%
-Pasta,Tamil Nadu,50%,Karnataka,30%,Maharashtra,15%,Gujarat,5%
-Pizza,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Fish,Kerala,70%,Maharashtra,20%,Karnataka,5%,Tamil Nadu,5%
-Juice,Andhra Pradesh,30%,Karnataka,25%,Maharashtra,20%,Gujarat,25%
-Peanuts,Gujarat,60%,Maharashtra,20%,Karnataka,10%,Punjab,10%
-Honey,Himachal Pradesh,50%,Punjab,30%,Maharashtra,10%,Gujarat,10%
-Sugar,Uttar Pradesh,40%,Maharashtra,30%,Karnataka,20%,Gujarat,10%
-Salt,Rajasthan,30%,Maharashtra,25%,Karnataka,20%,Gujarat,25%
-Pepper,Kerala,50%,Maharashtra,30%,Karnataka,10%,Tamil Nadu,10%
-Ketchup,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Cereal,Punjab,30%,Haryana,25%,Maharashtra,20%,Gujarat,25%
-Bacon,Kerala,60%,Maharashtra,20%,Karnataka,10%,Tamil Nadu,10%
-Water,Andhra Pradesh,30%,Karnataka,25%,Maharashtra,20%,Gujarat,25%
-Shampoo,Maharashtra,40%,Tamil Nadu,35%,Karnataka,15%,Gujarat,10%
-Soap,Karnataka,20%,Maharashtra,25%,Tamil Nadu,30%,Gujarat,25%
-Spinach,Maharashtra,60%,Punjab,35%,Gujarat,5%,Tamil Nadu,5%
-Sunscreen,Maharashtra,30%,Kerala,25%,Gujarat,20%,Tamil Nadu,25%
-Tea,Assam,30%,West Bengal,40%,Himachal Pradesh,20%,Uttarakhand,10%
-Tomatoes,Maharashtra,30%,Karnataka,25%,Tamil Nadu,20%,Gujarat,25%
-Yogurt,Himachal Pradesh,50%,Jammu & Kashmir,30%,Uttarakhand,10%,Maharashtra,10%
-Blueberries,Punjab,25%,Kerala,20%,Karnataka,30%,Maharashtra,25%
-Eggs,Andhra Pradesh,30%,Karnataka,25%,Tamil Nadu,20%,Maharashtra,25%
-Burger,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Pancakes,Kerala,50%,Maharashtra,20%,Karnataka,20%,Tamil Nadu,10%
-Hotdog,Maharashtra,30%,Karnataka,25%,Gujarat,20%,Tamil Nadu,25%
-Lemon,Andhra Pradesh,30%,Karnataka,25%,Maharashtra,20%,Gujarat,25%
-Lime,Kerala,40%,Maharashtra,30%,Karnataka,20%,Tamil Nadu,10%
-Peaches,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Pears,Maharashtra,30%,Karnataka,25%,Gujarat,20%,Tamil Nadu,25%
-Plums,Kerala,40%,Maharashtra,30%,Karnataka,20%,Tamil Nadu,10%
-Avocado,Maharashtra,60%,Karnataka,20%,Gujarat,10%,Tamil Nadu,10%
-Coconut,Kerala,50%,Maharashtra,30%,Karnataka,10%,Tamil Nadu,10%
-Papaya,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Dates,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Turkey,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Salmon,Kerala,50%,Maharashtra,30%,Karnataka,10%,Tamil Nadu,10%
-Tuna,Maharashtra,30%,Karnataka,25%,Gujarat,20%,Tamil Nadu,25%
-Shrimp,Kerala,40%,Maharashtra,30%,Karnataka,20%,Tamil Nadu,10%
-Oysters,Maharashtra,30%,Karnataka,25%,Gujarat,20%,Tamil Nadu,25%
-Cabbage,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Celery,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Peas,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Zucchini,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Eggplant,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Radish,Maharashtra,30%,Karnataka,25%,Gujarat,20%,Tamil Nadu,25%
-Beet,Kerala,40%,Maharashtra,30%,Karnataka,20%,Tamil Nadu,10%
-Mushrooms,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Asparagus,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Quinoa,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Noodles,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Bagels,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Muffin,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Doughnut,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Brownies,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Cupcake,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Chips,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Pickles,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Olives,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
-Jam,Punjab,50%,Himachal Pradesh,30%,Maharashtra,10%,Gujarat,10%
-Mustard,Maharashtra,40%,Karnataka,30%,Gujarat,20%,Tamil Nadu,10%
-Mayonnaise,Kerala,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
+Badam,Himachal Pradesh,60%,Gujarat,20%,Rajasthan,10%,Madhya Pradesh,10%
+Apples,Punjab,50%,Jammu & Kashmir,30%,Uttarakhand,10%,Haryana,10%
+Asparagus,Maharashtra,40%,Karnataka,30%,Haryana,20%,Tamil Nadu,10%
+Avocado,Karnataka,70%,Kerala,20%,Goa,5%,Maharashtra,5%
+Bacon,Punjab,60%,Haryana,25%,Madhya Pradesh,10%,Uttar Pradesh,5%
+Bag,Delhi,30%,Maharashtra,25%,Karnataka,20%,Tamil Nadu,25%
+Bagels,Karnataka,50%,Maharashtra,30%,Delhi,10%,Uttar Pradesh,10%
+Backpack,Tamil Nadu,40%,Karnataka,30%,Delhi,20%,Madhya Pradesh,10%
+Batteries,West Bengal,50%,Gujarat,30%,Delhi,10%,Rajasthan,10%
+Basketball,Madhya Pradesh,60%,Punjab,20%,Delhi,10%,Haryana,10%
+Beet,Rajasthan,50%,Punjab,30%,Gujarat,10%,Haryana,10%
+Belt,Karnataka,40%,Gujarat,30%,Delhi,20%,Maharashtra,10%
+Bike,Tamil Nadu,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Blanket,Kerala,30%,Gujarat,25%,Delhi,20%,Karnataka,25%
+Blender,Goa,40%,Karnataka,30%,Delhi,20%,Uttar Pradesh,10%
+Blueberries,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Bottle,Delhi,50%,Karnataka,30%,Madhya Pradesh,10%,Gujarat,10%
+Bracelet,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Bread,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Broccoli,Kerala,60%,Karnataka,20%,Delhi,10%,Gujarat,10%
+Broom,Tamil Nadu,40%,Karnataka,30%,Delhi,20%,Madhya Pradesh,10%
+Brownies,Goa,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Burger,Punjab,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Butter,Madhya Pradesh,50%,Haryana,30%,Delhi,10%,Gujarat,10%
+Cabbage,Kerala,40%,Karnataka,30%,Delhi,20%,Maharashtra,10%
+Camera,Delhi,30%,Karnataka,25%,Maharashtra,20%,Tamil Nadu,25%
+Carrots,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Calendar,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Cap,Karnataka,40%,Gujarat,30%,Delhi,20%,Maharashtra,10%
+Cereal,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Celery,Goa,60%,Karnataka,20%,Delhi,10%,Madhya Pradesh,10%
+Chair,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Charger,Punjab,40%,Karnataka,30%,Delhi,20%,Gujarat,10%
+Cheese,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Chicken,Rajasthan,50%,Haryana,30%,Delhi,10%,Madhya Pradesh,10%
+Chickpeas,Gujarat,55%,Maharashtra,35%,Uttar Pradesh,5%,Punjab,5%
+Chips,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Chocolate,Kerala,60%,Karnataka,20%,Delhi,10%,Gujarat,10%
+Clock,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Coconut,Karnataka,50%,Kerala,30%,Maharashtra,10%,Goa,10%
+Coffee,Karnataka,70%,Maharashtra,20%,Delhi,5%,Tamil Nadu,5%
+Cookies,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Conditioner,Tamil Nadu,40%,Karnataka,30%,Delhi,20%,Gujarat,10%
+Coke,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Cornflakes,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Cupcake,Goa,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Dates,Maharashtra,40%,Karnataka,30%,Delhi,20%,Gujarat,10%
+Deodorant,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Detergent,Maharashtra,40%,Karnataka,30%,Delhi,20%,Gujarat,10%
+Doughnut,Goa,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Drill,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Earrings,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Eggplant,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Eggs,Punjab,60%,Haryana,20%,Delhi,10%,Madhya Pradesh,10%
+Fan,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Fish,Kerala,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Flashlight,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Football,Punjab,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Fork,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Freezer,Goa,40%,Karnataka,30%,Delhi,20%,Haryana,10%
+Garlic,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Glasses,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Glue,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Gloves,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Grapes,Maharashtra,60%,Karnataka,20%,Delhi,10%,Gujarat,10%
+Guitar,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Hammer,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Hat,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Headphones,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Helmet,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Honey,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Hotdog,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Jam,Goa,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Juice,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Ketchup,Punjab,60%,Karnataka,20%,Delhi,10%,Gujarat,10%
+Knife,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Lamp,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Laptop,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Lemon,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Lightbulb,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Lime,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Lotion,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Mangoes,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Marker,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Mask,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Mayonnaise,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Milk,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Mop,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Mug,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Muffin,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Mushrooms,Punjab,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Mustard,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Nail Clippers,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Necklace,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Notebook,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Noodles,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Olives,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Onion,Maharashtra,60%,Karnataka,20%,Delhi,10%,Gujarat,10%
+Oranges,Karnataka,50%,Maharashtra,30%,Delhi,10%,Haryana,10%
+Oven,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Oysters,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Papaya,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Pancakes,Karnataka,50%,Maharashtra,30%,Delhi,10%,Haryana,10%
+Peaches,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Peanuts,Punjab,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Pears,Maharashtra,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Pen,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Pencil,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Perfume,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Pineapple,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Pizza,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Plant,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Plate,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Plums,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Popcorn,Maharashtra,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Potatoes,Karnataka,60%,Maharashtra,20%,Delhi,10%,Gujarat,10%
+Quinoa,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Radish,Punjab,50%,Karnataka,30%,Delhi,10%,Gujarat,10%
+Razor,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Ring,Karnataka,30%,Maharashtra,25%,Delhi,20%,Tamil Nadu,25%
+Rice,Maharashtra,60%,Karnataka,20%,Delhi,10%,Haryana,10%
+Ruler,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Salmon,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Salt,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Scarf,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Scissors,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Shrimp,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Shoes,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Shampoo,Karnataka,30%,Maharashtra,25%,Delhi,20%,Tamil Nadu,25%
+Soap,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Soda,Karnataka,60%,Maharashtra,20%,Delhi,10%,Gujarat,10%
+Socks,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Spoon,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Spinach,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Stove,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Suitcase,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Sunscreen,Karnataka,30%,Maharashtra,25%,Delhi,20%,Haryana,25%
+Sugar,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Table,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Tape,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Tea,Karnataka,30%,Maharashtra,25%,Delhi,20%,Haryana,25%
+Tent,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Tissues,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Tomatoes,Karnataka,60%,Maharashtra,20%,Delhi,10%,Gujarat,10%
+Toaster,Goa,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Toothbrush,Maharashtra,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Toothpaste,Punjab,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Tripod,Karnataka,30%,Maharashtra,25%,Delhi,20%,Tamil Nadu,25%
+Tuna,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Turkey,Punjab,50%,Karnataka,30%,Delhi,10%,Haryana,10%
+Umbrella,Tamil Nadu,30%,Karnataka,25%,Delhi,20%,Madhya Pradesh,25%
+Violin,Karnataka,30%,Maharashtra,25%,Delhi,20%,Haryana,25%
+Vase,Goa,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Wallet,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Watch,Punjab,30%,Karnataka,25%,Delhi,20%,Tamil Nadu,25%
+Water,Karnataka,60%,Maharashtra,20%,Delhi,10%,Gujarat,10%
+Wrench,Maharashtra,30%,Karnataka,25%,Delhi,20%,Haryana,25%
+Yogurt,Karnataka,50%,Maharashtra,30%,Delhi,10%,Gujarat,10%
+Zucchini,Punjab,50%,Karnataka,30%,Delhi,10%,Haryana,10%
