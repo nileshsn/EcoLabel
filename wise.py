@@ -267,10 +267,10 @@ def main():
     /* Global styles */
     body {
         color: #2e3a24;  /* Dark green text */
-        background-color: #f1f7e9;  /* Very light green background */
+        background-color: #e0ebe5;  /* Very light green background */
     }
     .stApp {
-        background-color: #f1f7e9;
+        background-color: #e0ebe5;
     }
     
     /* Text styles */
@@ -282,7 +282,7 @@ def main():
     /* Sidebar styles */
     [data-testid="stSidebar"] {
         background-color: #4caf50;  /* Green sidebar */
-        width: 150px;  /* Reduced width for the sidebar */
+        width: 120px;  /* Reduced width for the sidebar */
     }
     [data-testid="stSidebar"] .sidebar-content {
         background-color: #4caf50;  /* Green sidebar */
