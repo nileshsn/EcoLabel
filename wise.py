@@ -185,25 +185,23 @@ def chat_with_bot():
         with st.chat_message("user"):
             st.write(user_input)
         
+        # Include previous chat history in the prompt
+        previous_chat = "\n".join([f"{speaker}: {message}" for speaker, message in st.session_state.chat_history])
+        prompt = f"{previous_chat}\nAssistant:"
+        
         with st.chat_message("assistant"):
             with st.spinner("Thinking..."):
-                # Check if the user is asking about previous chat history
-                if "previous" in user_input.lower():
-                    history_summary = "\n".join([f"{speaker}: {message}" for speaker, message in st.session_state.chat_history])
-                    response = f"Here is the previous chat history:\n{history_summary}"
-                else:
-                    response = generate_content(user_input, max_tokens=1500)
-                
+                response = generate_content(prompt, max_tokens=1500)
                 if response:
-                    st.write(response)
-                    st.session_state.chat_history.append(("assistant", response))
+                    st.write(response.choices[0].message.content)
+                    st.session_state.chat_history.append(("assistant", response.choices[0].message.content))
                 else:
                     st.write("Sorry, I couldn't generate a response.")
                     st.session_state.chat_history.append(("assistant", "Sorry, I couldn't generate a response."))
     
     if st.button("Clear Chat History"):
         st.session_state.chat_history = []
-        st.rerun()
+        st.rerun()  
 
 # Streamlit UI for user input
 # Update the show_product_info function
