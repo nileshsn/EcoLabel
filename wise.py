@@ -163,35 +163,41 @@ def create_bar_chart(product_names):
 
 # Chatbot functionality
 def chat_with_bot():
-    st.title("Chat with AI Assistant")
-
-    if 'chat_history' not in st.session_state:
-        st.session_state.chat_history = []
-
-    for speaker, message in st.session_state.chat_history:
-        with st.chat_message(speaker):
-            st.write(message)
-
-    user_input = st.chat_input("Ask me anything about food / products!")
-
-    if user_input:
-        st.session_state.chat_history.append(("user", user_input))
-        with st.chat_message("user"):
-            st.write(user_input)
-
-        with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                response = generate_content(user_input, max_tokens=1500)
-                if response:
-                    st.write(response.choices[0].message.content)
-                    st.session_state.chat_history.append(("assistant", response.choices[0].message.content))
-                else:
-                    st.write("Sorry, I couldn't generate a response.")
-                    st.session_state.chat_history.append(("assistant", "Sorry, I couldn't generate a response."))
-
-    if st.button("Clear Chat History"):
-        st.session_state.chat_history = []
-        st.rerun()  
+     st.title("Chat with AI Assistant")
+ 
+     if 'chat_history' not in st.session_state:
+         st.session_state.chat_history = []
+ 
+     # Option to show previous chat history
+     if st.button("Show Previous Chat History"):
+         st.subheader("Chat History")
+         for speaker, message in st.session_state.chat_history:
+             st.write(f"**{speaker.capitalize()}:** {message}")
+ 
+     for speaker, message in st.session_state.chat_history:
+         with st.chat_message(speaker):
+             st.write(message)
+ 
+     user_input = st.chat_input("Ask me anything about food / products!")
+ 
+     if user_input:
+         st.session_state.chat_history.append(("user", user_input))
+         with st.chat_message("user"):
+             st.write(user_input)
+ 
+         with st.chat_message("assistant"):
+             with st.spinner("Thinking..."):
+                 response = generate_content(user_input, max_tokens=1500)
+                 if response:
+                     st.write(response.choices[0].message.content)
+                     st.session_state.chat_history.append(("assistant", response.choices[0].message.content))
+                 else:
+                     st.write("Sorry, I couldn't generate a response.")
+                     st.session_state.chat_history.append(("assistant", "Sorry, I couldn't generate a response."))
+ 
+     if st.button("Clear Chat History"):
+         st.session_state.chat_history = []
+         st.rerun()   
 
 # Streamlit UI for user input
 # Update the show_product_info function
