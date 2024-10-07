@@ -172,7 +172,7 @@ def chat_with_bot():
         with st.chat_message(speaker):
             st.write(message)
 
-    user_input = st.chat_input("Ask me anything about food products!")
+    user_input = st.chat_input("Ask me anything about food / products!")
 
     if user_input:
         st.session_state.chat_history.append(("user", user_input))
@@ -181,7 +181,7 @@ def chat_with_bot():
 
         with st.chat_message("assistant"):
             with st.spinner("Thinking..."):
-                response = generate_content(user_input, max_tokens=150)
+                response = generate_content(user_input, max_tokens=1500)
                 if response:
                     st.write(response.choices[0].message.content)
                     st.session_state.chat_history.append(("assistant", response.choices[0].message.content))
