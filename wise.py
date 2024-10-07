@@ -59,7 +59,6 @@ product_names = [
     "Water", "Wrench", "Yogurt", "Zucchini"
 ]
 
-
 # Function to fetch image from Pixabay
 def fetch_image_from_pixabay(query):
     url = f"https://pixabay.com/api/?key={pixabay_api_key}&q={query}&image_type=photo&per_page=3"
@@ -267,81 +266,59 @@ def main():
     <style>
     /* Global styles */
     body {
-        color: #333333;
-        background-color: #e6e9ef;  /* Slightly darker background */
+        color: #2e3a24;  /* Dark green text */
+        background-color: #e8f5e9;  /* Light green background */
     }
     .stApp {
-        background-color: #e6e9ef;
+        background-color: #e8f5e9;
     }
-    
-    /* Content area styles */
-    # .stMarkdown, .stText {
-    #     background-color: #ffffff;
-    #     padding: 1rem;
-    #     border-radius: 0.5rem;
-    #     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    #     margin-bottom: 1rem;
-    # }
     
     /* Text styles */
     p, li {
-        color: #1f2937;
+        color: #2e3a24;  /* Dark green text */
         line-height: 1.6;
     }
                 
-    # h1, h2, h3, h4, h5, h6 {
-    #     color: #1e3a8a;
-    # }
-                
     /* Sidebar styles */
     [data-testid="stSidebar"] {
-        background-color: #1b1d21;
+        background-color: #4caf50;  /* Green sidebar */
     }
     [data-testid="stSidebar"] .sidebar-content {
-        background-color: #1b1d21;
+        background-color: #4caf50;  /* Green sidebar */
     }
     [data-testid="stSidebar"] p,
     [data-testid="stSidebar"] span,
     [data-testid="stSidebar"] .stRadio label,
     [data-testid="stSidebar"] .stSelectbox label {
-        color: #ffffff !important;
-    }
-    [data-testid="stSidebar"] .stRadio > div[role="radiogroup"] > label {
-        color: #ffffff !important;
+        color: #ffffff !important;  /* White text in sidebar */
     }
     
     /* Header styles */
     h1 {
-        color: #0c339f;
+        color: #1b5e20;  /* Darker green for headers */
         font-size: 2.5rem;
         margin-bottom: 1rem;
     }
     h2, h3 {
-        color: #0c339f;
+        color: #1b5e20;  /* Darker green for subheaders */
         margin-top: 1.5rem;
         margin-bottom: 1rem;
     }
     
-    /* Paragraph styles */
-    p {
-        color: #1f2937;
-        line-height: 1.6;
-    }
-    
     /* Info box styles */
     .stInfo {
-        background-color: #e0f2fe;
-        color: #0c4a6e;
+        background-color: #c8e6c9;  /* Light green info box */
+        color: #1b5e20;  /* Dark green text */
         padding: 1rem;
         border-radius: 0.5rem;
-        border: 1px solid #7dd3fc;
+        border: 1px solid #a5d6a7;  /* Slightly darker green border */
         margin-bottom: 1rem;
     }
     
     /* Button styles */
     .stButton>button {
         width: 100%;
-        background-color: #1e40af;
+        background-color: #388e3c;  /* Green button */
         color: white;
         border: none;
         padding: 0.5rem 1rem;
@@ -350,12 +327,12 @@ def main():
         transition: background-color 0.3s ease;
     }
     .stButton>button:hover {
-        background-color: #1e3a8a;
+        background-color: #2e7d32;  /* Darker green on hover */
     }
     
     /* Input field styles */
     .stTextInput>div>div>input {
-        background-color: #ffffff;
+        background-color: #ffffff;  /* White input fields */
         border: 1px solid #d1d5db;
         border-radius: 0.25rem;
     }
@@ -368,8 +345,8 @@ def main():
     
     /* Error message styles */
     .stError {
-        background-color: #fee2e2;
-        color: #991b1b;
+        background-color: #ffebee;  /* Light red for errors */
+        color: #c62828;  /* Dark red text */
         padding: 0.5rem;
         border-radius: 0.25rem;
         margin-top: 0.5rem;
