@@ -9,3 +9,5 @@ speechrecognition
 streamlit
 python-dotenv
 plotly
+#git rm --cached .env
+#git commit -m "Remove .env file from tracking"
